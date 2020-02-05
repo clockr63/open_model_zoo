@@ -12,12 +12,12 @@ This model is tested with Tensorflow Lite version 1.13.
 #### Input Layers
 
 - Name: `input_2`
-- Shape: [1x3x224x224]
+- Shape: [1x224x224x3]
 - Format: [NxCxHxW] where a
   - N: batch size
-  - C: number of channels
   - H: height of image(tensor)
   - W: width of image(tensor)
+  - C: number of channels
 - Order of channels: R-G-B
 - Input image(tensor) should be normailized to -1.0 ~ 1.0
 

@@ -12,12 +12,12 @@ This model is tested with Tensorflow Lite version 1.13.
 #### Input Layers
 
 - Name: `INPUT_TENSOR_NAME`
-- Shape: [1x3x128x128]
+- Shape: [1x128x128x3]
 - Format: [NxCxHxW] where a
   - N: batch size
-  - C: number of channels
   - H: height of image(tensor)
   - W: width of image(tensor)
+  - C: number of channels
 - Order of channels: R-G-B
 
 
